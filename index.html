@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../style/bootswatch.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="border-bottom pb-5 mb-5">UI design kit</h1>
+
+      <div class="row">
+        <ul><a href="../view/navbar.html">Link to Navbar page</a></ul>
+        <ul><a href="../view/footer.html">Link to Footer page</a></ul>
+        <ul><a href="../view/banner.html">Link to Banner page</a></ul>
+        <ul><a href="../view/card.html">Link to Card page</a></ul>
+        <ul><a href="../view/authentification_form.html">Link to Form page</a></ul>
+      </div><br><br>
+
+      <h5>Buttons</h5><br>
+      <div class="row border-bottom pb-5 mb-5">
+        <div id="button" class="col-6">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-link">Link</button>
+
+              <br><br>
+
+              <button type="button" class="btn btn-primary disabled">Primary</button>
+              <button type="button" class="btn btn-secondary disabled">Secondary</button>
+              <button type="button" class="btn btn-success disabled">Success</button>
+              <button type="button" class="btn btn-info disabled">Info</button>
+              <button type="button" class="btn btn-warning disabled">Warning</button>
+              <button type="button" class="btn btn-danger disabled">Danger</button>
+              <button type="button" class="btn btn-link disabled">Link</button>
+
+              <br><br>
+
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+              <button type="button" class="btn btn-outline-success">Success</button>
+              <button type="button" class="btn btn-outline-info">Info</button>
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+
+              <br><br>
+
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-success">Success</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-info">Info</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-danger">Danger</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+
+              <br>
+        </div>
+
+        <div id="button" class="col-6">
+          <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button><br>
+
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="checkbox" checked="" autocomplete="off"> Active
+            </label>
+            <label class="btn btn-primary">
+              <input type="checkbox" autocomplete="off"> Check
+            </label>
+            <label class="btn btn-primary">
+              <input type="checkbox" autocomplete="off"> Check
+            </label>
+          </div><br><br>
+
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Active
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+            </label>
+          </div><br><br>
+
+          <button type="button" class="btn btn-primary btn-lg">Large button</button>
+              <button type="button" class="btn btn-primary">Default button</button>
+              <button type="button" class="btn btn-primary btn-sm">Small button</button>
+
+
+        </div>
+      </div>
+
+      <h5>Typography</h5><br>
+      <div class="row border-bottom pb-5 mb-5">
+        <div class="col-4">
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+          <h3>
+            Heading
+            <small class="text-muted">with muted text</small>
+          </h3>
+          <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+        <div class="col-4">
+          <h2>Example body text</h2>
+          <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+          <p><small>This line of text is meant to be treated as fine print.</small></p>
+          <p>The following is <strong>rendered as bold text</strong>.</p>
+          <p>The following is <em>rendered as italicized text</em>.</p>
+          <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+
+          <h2>Blockquote</h2>
+          <blockquote class="blockquote">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+
+        <div class="col-4">
+          <h2>Emphasis classes</h2>
+          <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+          <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p class="text-secondary">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+          <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+          <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+          <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+      </div>
+
+      <h5>Forms</h5><br>
+      <div class="row border-bottom pb-5 mb-5">
+        <form class="col-6">
+          <h2>Sign in</h2><br>
+            <fieldset>
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="form-control-lg">Email address</label>
+                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="form-control-lg">Password</label>
+                <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <a href="#!">Forgot your password?</a>
+              </div>
+              <div class="form-group">
+              <button type="submit" class="btn btn-success btn-lg">Submit</button>
+              </div>
+            </fieldset>
+          </form>
+
+          <form class="col-6">
+            <h2>Create an account</h2><br>
+              <fieldset>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control form-control" id="exampleInputPassword1" placeholder="Password">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Confirm your Password</label>
+                  <input type="password" class="form-control form-control" id="exampleInputPassword1" placeholder="Password">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                </div>
+
+                <div class="form-group">
+                  <a href="#!">Forgot your password?</a>
+                </div>
+                <div class="form-group">
+                <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </fieldset>
+            </form>
+      </div>
+
+      <h5>Badges</h5><br>
+      <div class="border-bottom pb-5 mb-5">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+
+        <br><br>
+
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span>
+      </div>
+
+      <h5>Cards</h5><br>
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-white border-primary text-center mb-3" style="max-width: 20rem;">
+            <div class="card-header bg-primary">Ibiza</div>
+            <img class="card-img-top" src="../images/card-img2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title text-primary">Nightclub party</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="btn btn-primary">More about the event</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card border-primary mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="../images/venice-2845272_1920.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Venezia</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-primary" style="width: 100%;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">         
+                <p class="text-primary font-weight-bold">@username</p>
+                <p class="pl-5 pr-5">Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi.</p>
+              </li>
+    
+              <li class="list-group-item">         
+                <p class="text-primary font-weight-bold">@username</p>
+                <p class="pl-5 pr-5">Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi.</p>
+              </li>
+              
+            </ul>
+          </div><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Primary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Secondary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Success card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Danger card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border-bottom pb-5 mb-5">
+        <div class="col-3">
+          <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Warning card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Info card<br> title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card bg-light mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Light card <br>title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h4 class="card-title">Dark card <br>title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h5>Navbar & Footer</h5><br>
+      <div>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand ml-5" href="#">Eventbrite</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav ml-auto mr-5 ">
+              <li class="nav-item active ">
+                <a class="nav-link ml-4" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-bar">
+                <a class="nav-link ml-4" href="#">Create an event</a>
+              </li>
+     
+              <div class="btn-group ml-4" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary  ">Primary</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Login</a>
+                    <a class="dropdown-item" href="#">Create an account</a>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        
+        <br><br>
+
+        <footer class="page-footer font-small indigo border-top">
+
+          <div class="container text-center text-md-left">
+            <div class="row">
+              <hr class="clearfix w-100 d-md-none">
+        
+              <div class="col-md-3 mx-auto text-center">
+                <h3 class="font-weight-bold text-uppercase mt-3 mb-4">EVENTBRITE</h3>
+                <blockquote>Find your next event</blockquote>
+              </div>
+        
+              <hr class="clearfix w-100 d-md-none">
+        
+              <div class="col-md-3 mx-auto">
+                <h6 class="font-weight-bold text-uppercase mt-3 mb-4">Information</h6>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">All event</a>
+                  </li>
+                  <li>
+                    <a href="#!">Our story</a>
+                  </li>
+                  <li>
+                    <a href="#!">Our team</a>
+                  </li>
+                </ul>
+        
+              </div>
+        
+        
+              <hr class="clearfix w-100 d-md-none">
+        
+        
+              <div class="col-md-3 mx-auto">
+        
+                <h6 class="font-weight-bold text-uppercase mt-3 mb-4">Customer service</h6>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">CGV</a>
+                  </li>
+                  <li>
+                    <a href="#!">Privacy rules</a>
+                  </li>
+                  <li>
+                    <a href="#!">Contact us</a>
+                  </li>
+                </ul>
+        
+              </div>
+            </div>
+          </div>
+        
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> Creyelman jordan</a>
+          </div>
+        
+        </footer>
+      </div>
+    </div>
+
+
+  </body>
+</html>
